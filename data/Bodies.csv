@@ -1,0 +1,34 @@
+Body,Vehicle Type,Speed (Ground),Speed (Water),Speed (Air),Speed (Anti-G),Acceleration (AC),Weight (WG),Handling (Ground),Handling (Water),Handling (Air),Handling (Anti-G),Traction (OF)
+Biddybuggy,Kart,0,1,1,2,7,0,5,4,4,5,4
+Mr. Scooty,Std Bike,0,1,1,2,7,0,5,4,4,5,4
+Streetle,Kart,2,5,2,0,6,0,4,5,3,2,6
+Landship,Kart,2,5,2,0,6,0,4,5,3,2,6
+Pipe Frame,Kart,2,3,1,1,6,1,5,4,2,4,4
+Varmint / City Tripper,Std Bike,2,3,1,1,6,1,5,4,2,4,4
+Cat Cruiser,Kart,2,2,4,3,5,2,4,2,4,3,3
+Comet,Sport Bike,2,2,4,3,5,2,4,2,4,3,3
+Yoshi Bike,Sport Bike,2,2,4,3,5,2,4,2,4,3,3
+Teddy Buggy,ATV,2,2,4,3,5,2,4,2,4,3,3
+W 25 Silver Arrow,Kart,2,2,3,4,5,1,4,3,3,4,5
+Wild Wiggler,ATV,2,2,3,4,5,1,4,3,3,4,5
+Standard Bike / Flame Rider,Std Bike,2,2,3,4,5,1,4,3,3,4,5
+Mach 8 / Sports Coupe,Kart,3,3,4,5,3,3,2,2,2,4,4
+Inkstriker,ATV,3,3,4,5,3,3,2,2,2,4,4
+Tanooki Kart,Kart,3,4,3,3,2,3,4,4,3,3,7
+Koopa Clown,Kart,3,4,3,3,2,3,4,4,3,3,7
+Master Cycle Zero,Std Bike,3,4,3,3,2,3,4,4,3,3,7
+300 SL Roadster,Kart,3,3,3,3,4,2,3,2,3,3,3
+Standard Kart,Kart,3,3,3,3,4,2,3,2,3,3,3
+The Duke,Std Bike,3,3,3,3,4,2,3,2,3,3,3
+Blue Falcon,Kart,4,2,3,4,3,0,2,3,1,5,3
+Splat Buggy,ATV,4,2,3,4,3,0,2,3,1,5,3
+Prancer,Kart,4,3,3,3,2,1,3,3,3,2,2
+Sport Bike / Jet Bike,Sport Bike,4,3,3,3,2,1,3,3,3,2,2
+Sneeker,Kart,4,2,3,3,2,2,3,2,2,3,0
+Gold Standard,Kart,4,2,3,3,2,2,3,2,2,3,0
+Master Cycle,Sport Bike,4,2,3,3,2,2,3,2,2,3,0
+Steel Driver / Tri-Speeder,Kart,4,5,0,2,1,4,1,5,1,1,3
+Bone Rattler,ATV,4,5,0,2,1,4,1,5,1,1,3
+Circuit Special / B Dasher / P-Wing,Kart,5,1,2,4,1,3,1,1,0,2,1
+Badwagon / GLA,Kart,5,2,1,3,0,4,0,1,0,1,5
+Standard ATV,ATV,5,2,1,3,0,4,0,1,0,1,5
