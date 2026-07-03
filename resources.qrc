@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="data/Drivers.csv">data/Drivers.csv</file>
+        <file alias="data/Bodies.csv">data/Bodies.csv</file>
+        <file alias="data/Tires.csv">data/Tires.csv</file>
+        <file alias="data/Gliders.csv">data/Gliders.csv</file>
+
+        <file alias="assets/icons/icon_driver.svg">assets/icons/icon_driver.svg</file>
+        <file alias="assets/icons/icon_kart.svg">assets/icons/icon_kart.svg</file>
+        <file alias="assets/icons/icon_tire.svg">assets/icons/icon_tire.svg</file>
+        <file alias="assets/icons/icon_glider.svg">assets/icons/icon_glider.svg</file>
+        <file alias="assets/icons/icon_trophy.svg">assets/icons/icon_trophy.svg</file>
+        <file alias="assets/icons/icon_logo.svg">assets/icons/icon_logo.svg</file>
+
+        <file alias="assets/sounds/select.wav">assets/sounds/select.wav</file>
+        <file alias="assets/sounds/confirm.wav">assets/sounds/confirm.wav</file>
+        <file alias="assets/sounds/back.wav">assets/sounds/back.wav</file>
+        <file alias="assets/sounds/error.wav">assets/sounds/error.wav</file>
+    </qresource>
+</RCC>

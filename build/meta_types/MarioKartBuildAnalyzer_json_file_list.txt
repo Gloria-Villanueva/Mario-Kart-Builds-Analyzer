@@ -1,0 +1,4 @@
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer_autogen/include/../M4YTXQ7V2H/moc_BuildListModel.cpp.json
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer_autogen/include/../M4YTXQ7V2H/moc_ComponentListModel.cpp.json
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer_autogen/include/../QGUZWGM6RH/moc_AppController.cpp.json
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer_autogen/include/../QGUZWGM6RH/moc_BuildViewModel.cpp.json

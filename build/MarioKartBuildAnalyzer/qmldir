@@ -1,0 +1,20 @@
+module MarioKartBuildAnalyzer
+typeinfo MarioKartBuildAnalyzer.qmltypes
+prefer :/qt/qml/MarioKartBuildAnalyzer/
+Main 1.0 qml/Main.qml
+Theme 1.0 qml/Theme.qml
+StatBar 1.0 qml/components/StatBar.qml
+PrimaryButton 1.0 qml/components/PrimaryButton.qml
+GlassCard 1.0 qml/components/GlassCard.qml
+SectionHeader 1.0 qml/components/SectionHeader.qml
+ComponentPicker 1.0 qml/components/ComponentPicker.qml
+NavRail 1.0 qml/components/NavRail.qml
+SoundFx 1.0 qml/components/SoundFx.qml
+HomeView 1.0 qml/views/HomeView.qml
+BuildView 1.0 qml/views/BuildView.qml
+RankingView 1.0 qml/views/RankingView.qml
+SimilarView 1.0 qml/views/SimilarView.qml
+StatsView 1.0 qml/views/StatsView.qml
+CatalogView 1.0 qml/views/CatalogView.qml
+depends QtQuick
+

@@ -1,0 +1,1147 @@
+[
+    {
+        "classes": [
+            {
+                "className": "BuildListModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 15,
+                        "name": "Roles",
+                        "values": [
+                            "RankRole",
+                            "DriverNameRole",
+                            "BodyNameRole",
+                            "TireNameRole",
+                            "GliderNameRole",
+                            "ScoreRole",
+                            "BarRatioRole",
+                            "DistanceRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 10,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 12,
+                        "name": "count",
+                        "notify": "countChanged",
+                        "override": false,
+                        "read": "count",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "BuildListModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 39,
+                        "name": "countChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "BuildListModel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ComponentListModel",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 20,
+                        "name": "Roles",
+                        "values": [
+                            "NameRole",
+                            "CategoryRole",
+                            "ScoreRole",
+                            "TypeRole",
+                            "SpeedGroundRole",
+                            "SpeedWaterRole",
+                            "SpeedAirRole",
+                            "SpeedAntiGRole",
+                            "AccelerationRole",
+                            "WeightRole",
+                            "HandlingGroundRole",
+                            "HandlingWaterRole",
+                            "HandlingAirRole",
+                            "HandlingAntiGRole",
+                            "TractionRole",
+                            "IconRole",
+                            "ItemIndexRole"
+                        ]
+                    }
+                ],
+                "lineNumber": 13,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "isConst": true,
+                        "lineNumber": 58,
+                        "name": "get",
+                        "returnType": "QVariantMap"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 15,
+                        "name": "componentType",
+                        "override": false,
+                        "read": "componentType",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 16,
+                        "name": "iconSource",
+                        "override": false,
+                        "read": "iconSource",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 17,
+                        "name": "count",
+                        "notify": "countChanged",
+                        "override": false,
+                        "read": "count",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "ComponentListModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 61,
+                        "name": "countChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ComponentListModel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "AppController",
+                "lineNumber": 26,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 29,
+                        "name": "loaded",
+                        "notify": "loadedChanged",
+                        "override": false,
+                        "read": "loaded",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 30,
+                        "name": "errorMessage",
+                        "notify": "errorChanged",
+                        "override": false,
+                        "read": "errorMessage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 32,
+                        "name": "driversModel",
+                        "override": false,
+                        "read": "driversModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "ComponentListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 33,
+                        "name": "bodiesModel",
+                        "override": false,
+                        "read": "bodiesModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "ComponentListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 34,
+                        "name": "tiresModel",
+                        "override": false,
+                        "read": "tiresModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "ComponentListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 35,
+                        "name": "glidersModel",
+                        "override": false,
+                        "read": "glidersModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "ComponentListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 37,
+                        "name": "rankingModel",
+                        "override": false,
+                        "read": "rankingModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "BuildListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 38,
+                        "name": "similarModel",
+                        "override": false,
+                        "read": "similarModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "BuildListModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 40,
+                        "name": "currentBuild",
+                        "override": false,
+                        "read": "currentBuild",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "BuildViewModel*",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 42,
+                        "name": "selectedDriverIndex",
+                        "notify": "selectionChanged",
+                        "override": false,
+                        "read": "selectedDriverIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 43,
+                        "name": "selectedBodyIndex",
+                        "notify": "selectionChanged",
+                        "override": false,
+                        "read": "selectedBodyIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 44,
+                        "name": "selectedTireIndex",
+                        "notify": "selectionChanged",
+                        "override": false,
+                        "read": "selectedTireIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 45,
+                        "name": "selectedGliderIndex",
+                        "notify": "selectionChanged",
+                        "override": false,
+                        "read": "selectedGliderIndex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 47,
+                        "name": "lastPercentile",
+                        "notify": "percentileChanged",
+                        "override": false,
+                        "read": "lastPercentile",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 48,
+                        "name": "percentileReady",
+                        "notify": "percentileChanged",
+                        "override": false,
+                        "read": "percentileReady",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 50,
+                        "name": "driverSizes",
+                        "override": false,
+                        "read": "driverSizes",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 51,
+                        "name": "bodyTypes",
+                        "override": false,
+                        "read": "bodyTypes",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "AppController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 130,
+                        "name": "loadedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 131,
+                        "name": "errorChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 132,
+                        "name": "selectionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 133,
+                        "name": "percentileChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 82,
+                        "name": "selectDriver",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 83,
+                        "name": "selectBody",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 84,
+                        "name": "selectTire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 85,
+                        "name": "selectGlider",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 88,
+                        "name": "calculatePercentile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "topN",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 89,
+                        "name": "computeRanking",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "k",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 90,
+                        "name": "computeSimilar",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filterType",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "filterValue",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "operation",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 91,
+                        "name": "computeAggregation",
+                        "returnType": "double"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "AppController.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "BuildViewModel",
+                "lineNumber": 14,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 17,
+                        "name": "ready",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "ready",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 19,
+                        "name": "driverName",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "driverName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 20,
+                        "name": "bodyName",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "bodyName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 21,
+                        "name": "tireName",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "tireName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 22,
+                        "name": "gliderName",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "gliderName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 24,
+                        "name": "speedGround",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "speedGround",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 25,
+                        "name": "speedWater",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "speedWater",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 26,
+                        "name": "speedAir",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "speedAir",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 27,
+                        "name": "speedAntiG",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "speedAntiG",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 28,
+                        "name": "acceleration",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "acceleration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 29,
+                        "name": "weight",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "weight",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 30,
+                        "name": "handlingGround",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "handlingGround",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 31,
+                        "name": "handlingWater",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "handlingWater",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 32,
+                        "name": "handlingAir",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "handlingAir",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 33,
+                        "name": "handlingAntiG",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "handlingAntiG",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 34,
+                        "name": "traction",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "traction",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 36,
+                        "name": "normSpeedGround",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normSpeedGround",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 17,
+                        "lineNumber": 37,
+                        "name": "normSpeedWater",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normSpeedWater",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 18,
+                        "lineNumber": 38,
+                        "name": "normSpeedAir",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normSpeedAir",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 19,
+                        "lineNumber": 39,
+                        "name": "normSpeedAntiG",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normSpeedAntiG",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 20,
+                        "lineNumber": 40,
+                        "name": "normAcceleration",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normAcceleration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 21,
+                        "lineNumber": 41,
+                        "name": "normWeight",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normWeight",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 22,
+                        "lineNumber": 42,
+                        "name": "normHandlingGround",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normHandlingGround",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 23,
+                        "lineNumber": 43,
+                        "name": "normHandlingWater",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normHandlingWater",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 24,
+                        "lineNumber": 44,
+                        "name": "normHandlingAir",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normHandlingAir",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 25,
+                        "lineNumber": 45,
+                        "name": "normHandlingAntiG",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normHandlingAntiG",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 26,
+                        "lineNumber": 46,
+                        "name": "normTraction",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normTraction",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 27,
+                        "lineNumber": 48,
+                        "name": "performanceScore",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "performanceScore",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 28,
+                        "lineNumber": 49,
+                        "name": "normPerformanceScore",
+                        "notify": "changed",
+                        "override": false,
+                        "read": "normPerformanceScore",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "BuildViewModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 92,
+                        "name": "changed",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "BuildViewModel.h",
+        "outputRevision": 69
+    }
+]

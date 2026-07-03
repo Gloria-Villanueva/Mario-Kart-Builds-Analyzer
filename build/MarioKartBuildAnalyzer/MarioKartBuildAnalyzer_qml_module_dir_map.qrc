@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/MarioKartBuildAnalyzer">/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+-I
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build
+-I
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer
+-I
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build
+-I
+/opt/homebrew/opt/qt/share/qt/qml
+--resource
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/.qt/rcc/qmake_MarioKartBuildAnalyzer.qrc
+--resource
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/.qt/rcc/MarioKartBuildAnalyzer_raw_qml_0.qrc
+--module
+MarioKartBuildAnalyzer

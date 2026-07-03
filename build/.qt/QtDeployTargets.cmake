@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MarioKartBuildAnalyzer_FILE /Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer.app/Contents/MacOS/MarioKartBuildAnalyzer)
+set(__QT_DEPLOY_TARGET_MarioKartBuildAnalyzer_TYPE EXECUTABLE)

@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "BuildListModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 15,
+                    "name": "Roles",
+                    "values": [
+                        "RankRole",
+                        "DriverNameRole",
+                        "BodyNameRole",
+                        "TireNameRole",
+                        "GliderNameRole",
+                        "ScoreRole",
+                        "BarRatioRole",
+                        "DistanceRole"
+                    ]
+                }
+            ],
+            "lineNumber": 10,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 12,
+                    "name": "count",
+                    "notify": "countChanged",
+                    "override": false,
+                    "read": "count",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "BuildListModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 39,
+                    "name": "countChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "BuildListModel.h",
+    "outputRevision": 69
+}

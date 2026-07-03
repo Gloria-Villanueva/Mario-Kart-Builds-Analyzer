@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="/qt/qml/MarioKartBuildAnalyzer/">
+    <file alias="qml/Main.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/Main.qml</file>
+    <file alias="qml/Theme.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/Theme.qml</file>
+    <file alias="qml/components/StatBar.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/StatBar.qml</file>
+    <file alias="qml/components/PrimaryButton.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/PrimaryButton.qml</file>
+    <file alias="qml/components/GlassCard.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/GlassCard.qml</file>
+    <file alias="qml/components/SectionHeader.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/SectionHeader.qml</file>
+    <file alias="qml/components/ComponentPicker.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/ComponentPicker.qml</file>
+    <file alias="qml/components/NavRail.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/NavRail.qml</file>
+    <file alias="qml/components/SoundFx.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/components/SoundFx.qml</file>
+    <file alias="qml/views/HomeView.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/views/HomeView.qml</file>
+    <file alias="qml/views/BuildView.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/views/BuildView.qml</file>
+    <file alias="qml/views/RankingView.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/views/RankingView.qml</file>
+    <file alias="qml/views/SimilarView.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/views/SimilarView.qml</file>
+    <file alias="qml/views/StatsView.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/views/StatsView.qml</file>
+    <file alias="qml/views/CatalogView.qml">/Users/gigi/Downloads/MarioKartBuildAnalyzer/qml/views/CatalogView.qml</file>
+  </qresource>
+</RCC>
+

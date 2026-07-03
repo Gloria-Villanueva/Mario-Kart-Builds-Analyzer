@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MarioKartBuildAnalyzer">
+    <file alias="qmldir">/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer/qmldir</file>
+  </qresource>
+</RCC>
+

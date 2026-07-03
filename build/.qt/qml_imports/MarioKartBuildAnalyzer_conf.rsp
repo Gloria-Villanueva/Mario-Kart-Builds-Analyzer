@@ -1,0 +1,14 @@
+-rootPath
+/Users/gigi/Downloads/MarioKartBuildAnalyzer
+-cmake-output
+-output-file
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/.qt/qml_imports/MarioKartBuildAnalyzer_conf.cmake
+-importPath
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build
+-importPath
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/MarioKartBuildAnalyzer
+-importPath
+/opt/homebrew/opt/qt/share/qt/qml
+-qrcFiles
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/.qt/rcc/qmake_MarioKartBuildAnalyzer.qrc
+/Users/gigi/Downloads/MarioKartBuildAnalyzer/build/.qt/rcc/MarioKartBuildAnalyzer_raw_qml_0.qrc
